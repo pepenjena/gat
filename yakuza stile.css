@@ -1,0 +1,50 @@
+div#nev{
+    background-color: #797979;
+    border: 3px solid #797979;
+    color: whitesmoke;
+    width: 100%;
+    
+    a{
+        margin-left: 100px;
+    }
+}
+body{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+div#poto{
+    float: right;
+    transform: scale(0.9);
+    image-rendering: pixelated;
+}
+div#caca{
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+div#nose{
+    color:whitesmoke
+}
+a{
+    color: white;
+}
+h1{
+    color: grey;
+}
+p{
+    color: whitesmoke
+
+}
+.flex-container{
+    display: flex;
+    padding: 5px;
+    height: 300px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.flex-container div{
+        margin: 5px;
+        padding: 10px;
+    }   
+    
